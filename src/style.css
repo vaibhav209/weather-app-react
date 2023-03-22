@@ -1,0 +1,7 @@
+body {
+  background-image: url('./backgroundImage/sunset.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  font-family: sans-serif;
+}

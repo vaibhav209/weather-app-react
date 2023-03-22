@@ -1,0 +1,73 @@
+.weatherDisplayBox {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: white;
+}
+.weatherDisplayBoxTwo {
+  margin-top: 5%;
+  background-color: #0000008a;
+  border-radius: 10px;
+  width: 45%;
+  color: white;
+  padding: 30px 25px;
+  text-align: center;
+  font-family: sans-serif;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding-bottom: 6px;
+}
+
+.weatherParentStyles {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 35%;
+  text-align: center;
+  background-color: #0000008a;
+  border-radius: 10px;
+  padding: 20px 30px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.cloudIcon {
+  font-size: 2pc;
+}
+
+.resultDisplay {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+h3 {
+  color: red;
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-size: 22px;
+  color: #413;
+}
+.notFoundText {
+  margin-top: 2%;
+  font-size: 24px;
+  color: red;
+}
+
+/* Media queries */
+
+@media (max-width: 768px) {
+  .weatherParentStyles {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .weatherDisplayBoxTwo {
+    width: 100%;
+  }
+}

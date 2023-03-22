@@ -1,0 +1,31 @@
+.dateStyles {
+  margin-top: 3.5%;
+  color: #333;
+  letter-spacing: 1px;
+  font-size: 27px;
+  display: inline-block;
+  font-weight: bold;
+}
+.timeStyle {
+  text-align: center;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 767px) {
+  .dateStyles {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .dateStyles {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .dateStyles {
+    font-size: 27px;
+  }
+}
