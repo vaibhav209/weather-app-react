@@ -34,7 +34,8 @@ This project uses an external API to fetch weather data. To set up the API key:
 
 1. Rename the '.env.example' file to '.env in the root directory of the project.
 
-2. Open the '.env' file in a text editor and replace "YOUR_API_KEY_HERE" with your actual OpenWeatherMap API key. The file should look like this: REACT_APP_API_KEY=your_actual_api_key_here
+2. Open the '.env' file in a text editor and replace "YOUR_API_KEY_HERE" with your actual OpenWeatherMap API key.
+The file should look like this: REACT_APP_API_KEY=your_actual_api_key_here
 
 
 ## Contributing
