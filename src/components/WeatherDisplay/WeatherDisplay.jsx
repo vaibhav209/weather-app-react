@@ -79,7 +79,7 @@ const WeatherDisplay = () => {
             title="Github profile"
             style={{ color: 'white' }}
           >
-            Vaibhav Jumde
+            Vaibhav
           </a>
         </div>
       </div>
